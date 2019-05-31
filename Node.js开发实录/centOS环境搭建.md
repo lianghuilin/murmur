@@ -1,7 +1,20 @@
-## 搭建 nodejs/npm
-
+## 搭建nginx
 ```
-#
+# 查看centOS版本
+cat /etc/redhat -release
+
+# 下载nginx
+wget http://nginx.org/download/nginx-1.1.10.tar.gz
+
+# 解压
+tar -zxf nginx-1.1.10.tar.gz
+
+# 查看nginx版本
+nginx -v
+```
+
+## 搭建 nodejs/npm
+```
 
 ```
 
