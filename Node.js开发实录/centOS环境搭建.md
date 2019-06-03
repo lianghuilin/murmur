@@ -106,3 +106,13 @@ db.createUser(
     }
 )
 ```
+
+- MongoDB重启
+```
+# 查询MongoDB的进程
+ps -ef | grep mongo
+# 找到并杀死以mongodb.conf结尾的进程
+kill 22694
+# 重新启动
+mongod -f /etc/mongodb.conf
+```
