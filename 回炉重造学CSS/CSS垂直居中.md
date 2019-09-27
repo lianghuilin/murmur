@@ -1,0 +1,5 @@
+- 文本`line-height:80px;`
+- 图片`vertical-align:middle;`
+- 盒子
+  - 父容器宽高100%，盒子`position:relative;top:50%;margin-top:-150;`
+  - 父容器`display:flex;align-items:center;justify-content:center;`
