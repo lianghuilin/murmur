@@ -27,7 +27,6 @@ console.log(arr.indexOf(target));
 arr.splace(index,1);
 ```
 
-## 旋转跳舞闭着眼
 ### for
 ### for in
 ### each
